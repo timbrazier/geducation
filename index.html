@@ -36,12 +36,12 @@
   <div class="row">
     <div class="navigation">
       <ul>
-        <li>Home</li>
-        <li>What I do</li>
-        <li>Blog</li>
-        <li>Get in touch</li>
-        <li>Guerrilla Teaching</li>
-        <li>Resources</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#what-i-do">What I do</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#get-in-touch">Get in touch</a></li>
+        <li><a href="#guerrilla-teaching">Guerrilla Teaching</a></li>
+        <!-- <li>Resources</li> -->
       </ul>
     </div>
   </div>
@@ -49,14 +49,18 @@
   <div class="row">
     <div class="hero">
       <div class="container">
-        <h1>Guerrilla <br />Education</h1>
-        <img src="images/hero-guerrilla.png" alt="" />
+        <div class="six columns">
+          <h1>Guerrilla <br />Education</h1>
+        </div>
+        <div class="six columns">
+          <img src="images/hero-guerrilla.png" alt="" width="50%"/>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row about">
+    <div class="row about" id="about">
       <div class="eight columns">
         <p>
           Guerrilla Education is an inspiringly optimistic educational consultancy company, whose mission is to education from the ground up. Bringing together innovative school based practice with a passion for developing 21st century learners, Guerrilla Education offers a refreshing approach to creativity, motivation and engagement.
@@ -64,7 +68,7 @@
         <p>
           Driven by the belief that committed individuals can and do make a difference, Guerrilla Education represents a lighthearted call to arms with a serious message about bravery, risk taking and the need for change.
         </p>
-        <a href="#" class="button">Read more</a>
+        <a href="/about-me" class="button">Read more</a>
       </div>
       <div class="four columns">
         <img src="images/jonathan.png" alt="" width="100%"/>
@@ -72,7 +76,7 @@
     </div>
   </div>
 
-  <div class="row what-i-do">
+  <div class="row what-i-do" id="what-i-do">
     <div class="container">
       <h2>What I do</h2>
       <p>
@@ -95,6 +99,98 @@
           <img src="images/schools.png" alt="" height="250px"/>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div class="row blog" id="blog">
+    <div class="container">
+      <div class="eight columns">
+        <h2>Blog</h2>
+        <p>
+          Read about our latest thoughts and ideas, or take a look at upcoming events:
+        </p>
+        <h4>Our latest blog post</h4>
+  			<script type="text/javascript">
+  			     (function(blog, limit) {
+  			      limit = +limit || 10;
+
+  			      var scriptTags = document.getElementsByTagName('script');
+  			      var scriptNode = scriptTags[scriptTags.length - 1];
+  			      var recent = document.createElement("div");
+  			      scriptNode.parentNode.appendChild(recent);
+  			      recent.setAttribute("class", "widget");
+  			      recent.setAttribute("id", "TumblrRecentPosts");
+
+  			      var script = document.createElement("script");
+  			      script.src = "http://" + blog + "/api/read/json";
+  			      script.onload = function(data) {
+  			        if(!tumblr_api_read) return;
+
+  			        var response = tumblr_api_read.posts;
+  			        var post;
+  			        var len = Math.min(response.length, limit);
+  			        var html = "<ul>";
+
+  			        for(var i = 0; i < len; ++i) {
+  			          post = response[i];
+  			          html += "<li>"+"<a target='_blank' href='" + (post['url-with-slug'] || post.url) + "'>" +
+  			          post['regular-title'] + "</a>"+"</li>";
+  			        }
+
+  			        recent.innerHTML = html;
+  			      };
+
+  			      document.body.appendChild(script);
+
+  				})("blog.guerrillaeducation.co.uk", 1); //enter your settings here
+  			</script>
+  			<p>by Jonathan Lear</p>
+  			<a href="http://blog.guerrillaeducation.co.uk/" target="_blank"><p class="button blue">Read All Posts</p></a>
+      </div>
+      <div class="four columns">
+        <img src="images/blog.png" alt="" width="100%"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="row get-in-touch" id="get-in-touch">
+    <div class="container">
+      <div class="eight columns">
+        <h2>Get in touch</h2>
+        <p>
+          If you would like to get in touch to talk to us about how we could help, you can contact us in a number of ways:
+        </p>
+        <p>
+          Email me at jonathan@guerrillaeducation.co.uk or send me a quick message:
+        </p>
+      </div>
+      <div class="four columns">
+        <img src="images/get-in-touch.png" alt="" width="100%"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="row guerrilla-teaching" id="guerrilla-teaching">
+    <div class="container">
+      <div class="six columns">
+        <h2>Guerrilla Teaching</h2>
+        <p>
+          To find out what’s going on with all the gorillas, take a look at my book Guerrilla Teaching - it’s full of the kind of ideas and thinking that’ll ensure our children get the education they deserve regardless of what we’re told.
+        </p>
+        <a href="#" class="button">Find out more</a>
+      </div>
+      <div class="six columns">
+        <img src="images/guerrilla-teaching.png" alt="" width="80%"/>
+      </div>
+    </div>
+  </div>
+
+  <div class="row footer">
+    <div class="container">
+      <img src="images/footer.png" alt="" width="80%"/>
+      <p>
+        © Copyright 2013 Guerrilla Education
+      </p>
     </div>
   </div>
 
