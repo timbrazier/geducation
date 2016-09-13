@@ -368,3 +368,10 @@ h3:after{
   and (orientation: landscape) {
 
 }
+
+.textarea{
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #D1D1D1;
+  padding: 6px 10px;
+}
