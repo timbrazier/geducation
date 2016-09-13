@@ -142,7 +142,7 @@
   			      recent.setAttribute("id", "TumblrRecentPosts");
 
   			      var script = document.createElement("script");
-  			      script.src = "https://" + blog + "/api/read/json";
+  			      script.src = "http://" + blog + "/api/read/json";
   			      script.onload = function(data) {
   			        if(!tumblr_api_read) return;
 
@@ -164,7 +164,7 @@
 
   				})("blog.guerrillaeducation.co.uk", 1); //enter your settings here
   			</script>
-  			<a href="https://blog.guerrillaeducation.co.uk/" target="_blank"><p class="button blue">Read All Posts</p></a>
+  			<a href="http://blog.guerrillaeducation.co.uk/" target="_blank"><p class="button blue">Read All Posts</p></a>
       </div>
       <div class="four columns">
         <img src="images/blog.png" alt="" width="100%"/>
@@ -185,6 +185,15 @@
         <p>
           Email: jonathan@guerrillaeducation.co.uk or send a quick message:
         </p>
+        <p>
+          Or send me a message below:
+        </p>
+        <form action="https://formspree.io/me@timbrazier.co.uk" method="POST">
+          <input type="text" name="name">
+          <input type="email" name="_replyto">
+          <input type="textarea" name="message">
+          <input type="submit" value="Send">
+        </form>
       </div>
       <div class="four columns">
         <img src="images/get-in-touch.png" alt="" width="100%"/>
