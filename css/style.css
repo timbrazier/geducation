@@ -191,7 +191,7 @@ h3:after{
   color: #3EADB1;
   font-weight: 200;
   font-size: 26px;
-  font-style: italic; 
+  font-style: italic;
 }
 
 .gt-quotes{
@@ -467,5 +467,9 @@ nav#nav-mobile {
 
     #about{
       margin-top: 30px;
+    }
+
+    .big-quote{
+      font-size: 1.5em;
     }
 }
