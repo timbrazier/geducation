@@ -28,23 +28,46 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="../images/favicon.png">
 
+  <!-- Navigation script
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="scripts/jquery-1.9.1.min.js"></script>
+  <script src="scripts/modernizr.custom.js"></script>
+  <script>
+      $(document).ready(function(){
+          $("#nav-mobile").html($("#nav-main").html());
+          $("#nav-trigger span").click(function(){
+              if ($("nav#nav-mobile ul").hasClass("expanded")) {
+                  $("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
+                  $(this).removeClass("open");
+              } else {
+                  $("nav#nav-mobile ul").addClass("expanded").slideDown(250);
+                  $(this).addClass("open");
+              }
+          });
+      });
+  </script>
+
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="row">
-    <div class="navigation">
+    <nav id="nav-main">
       <ul>
         <li><a href="../">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="../about-me">About</a></li>
         <li><a href="../#what-i-do">Training &amp; Events</a></li>
         <li><a href="../guerrilla-teaching">Guerrilla Teaching</a></li>
         <li><a href="http://blog.guerrillaeducation.co.uk/">Blog</a></li>
         <li><a href="../#get-in-touch">Get in touch</a></li>
-        <!-- <li>Resources</li> -->
       </ul>
+    </nav>
+    <div id="nav-trigger">
+      <span>Menu</span>
     </div>
+    <nav id="nav-mobile"></nav>
   </div>
 
   <div class="row">
@@ -53,7 +76,7 @@
         <div class="six columns">
           <h1 class="inner-h1">Jonathan Lear</h1>
         </div>
-        <div class="six columns">
+        <div class="six columns about-hero">
           <img src="../images/jonathan.png" alt="" width="60%"/>
         </div>
       </div>
