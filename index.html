@@ -82,17 +82,23 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row big-quote">
+      <div class="twelve columns">
+        <p class="big-quote">
+          "Unless someone like you cares a whole awful lot, nothing is going to get better it’s not."
+        </p>
+        <p class="big-quoter">
+          Dr Seuss
+        </p>
+      </div>
+    </div>
+  </div>
 
   <div class="container">
     <div class="row about" id="about">
       <div class="eight columns">
         <h2>About</h2>
-        <p class="quote">
-          "Unless someone like you cares a whole awful lot, nothing is going to get better it’s not."
-        </p>
-        <p class="quoter">
-          Dr Seuss
-        </p>
         <p>
           Driven by the belief that committed individuals can and do make a difference, Guerrilla Education represents a one-man mission to change education from the ground up.
         </p>
@@ -159,7 +165,7 @@
   			      recent.setAttribute("id", "TumblrRecentPosts");
 
   			      var script = document.createElement("script");
-  			      script.src = "https://" + blog + "/api/read/json";
+  			      script.src = "http://" + blog + "/api/read/json";
   			      script.onload = function(data) {
   			        if(!tumblr_api_read) return;
 

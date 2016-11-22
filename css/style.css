@@ -177,6 +177,23 @@ h3:after{
   font-style: italic;
 }
 
+.big-quote{
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  color: #3EADB1;
+  font-weight: 400;
+  font-size: 40px;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+
+.big-quoter{
+  color: #3EADB1;
+  font-weight: 200;
+  font-size: 26px;
+  font-style: italic; 
+}
+
 .gt-quotes{
   background: #F0F0F0;
   padding: 60px 0 120px 0;
