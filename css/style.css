@@ -25,6 +25,7 @@ p{
   background: #3EADB1;
   text-align: center;
   z-index: -100000;
+  margin-top: 78px;
 }
 
 .hero img{
@@ -89,7 +90,7 @@ h4{
 }
 
 #about{
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .what-i-do{
@@ -213,10 +214,6 @@ h3:after{
   and (min-device-width: 320px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-
-    .hero{
-      margin-top: 0;
-    }
 
     h1{
       float: none;
@@ -382,7 +379,10 @@ h3:after{
 
 nav#nav-main {
   background-color: #fff;
-  padding: 10px 0; }
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1; }
   nav#nav-main ul {
     list-style-type: none;
     margin: 0;
@@ -458,6 +458,7 @@ nav#nav-mobile {
 
     .hero{
       margin-bottom: -180px;
+      margin-top: 10px !important;
     }
 
     .hero img{
