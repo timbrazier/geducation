@@ -90,7 +90,11 @@ h4{
 }
 
 #about{
-  margin-top: 150px;
+  margin-top: 180px;
+}
+
+#about img{
+  margin-top: 20px;
 }
 
 .what-i-do{
@@ -473,4 +477,8 @@ nav#nav-mobile {
     .big-quote{
       font-size: 1.5em;
     }
+}
+
+#what-i-do{
+  margin-top: 40px;
 }
