@@ -281,6 +281,7 @@ h3:after{
     h1{
       text-align: center;
       border-bottom: none;
+      float: none;
     }
 
     .quote{
