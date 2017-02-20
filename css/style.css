@@ -291,6 +291,11 @@ h3:after{
       width: 70%;
     }
 
+    .what-i-do img{
+      width: 75%;
+      height: 75%;
+    }
+
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
