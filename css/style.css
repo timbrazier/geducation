@@ -259,6 +259,10 @@ h3:after{
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    h1{
+      text-align: center;
+      border-bottom: none;
+    }
 }
 
 /* Landscape */
