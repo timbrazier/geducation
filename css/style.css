@@ -312,6 +312,10 @@ h3:after{
       margin-top: 180px;
     }
 
+    #about{
+      width: 140%;
+    }
+
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
