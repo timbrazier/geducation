@@ -494,7 +494,9 @@ nav#nav-mobile {
 @media (max-width: 1200px) {
   #nav-trigger {
     display: block;
-    position: fixed;}
+    position: fixed;
+    z-index: 10;
+    margin: 0 auto; }
 
   nav#nav-main {
     display: none; }
