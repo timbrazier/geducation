@@ -491,7 +491,7 @@ nav#nav-mobile {
 
 /* =Media Queries
 -------------------------------------------------------------- */
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   #nav-trigger {
     display: block; }
 
