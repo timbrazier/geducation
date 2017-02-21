@@ -313,12 +313,8 @@ h3:after{
       margin-top: 180px;
     }
 
-    #about{
+    .wide{
       width: 150%;
-    }
-
-    .wide img{
-      display: inline-block;
     }
 
 }
