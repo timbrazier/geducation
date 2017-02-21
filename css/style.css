@@ -317,6 +317,10 @@ h3:after{
       width: 150% !important;
     }
 
+    .wideish{
+      width: 100% !important;
+    }
+
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
