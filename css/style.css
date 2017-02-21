@@ -493,14 +493,14 @@ nav#nav-mobile {
 -------------------------------------------------------------- */
 @media (max-width: 1200px) {
   #nav-trigger {
-    display: block; }
+    display: block;
+    position: fixed;}
 
   nav#nav-main {
     display: none; }
 
   nav#nav-mobile {
-    display: block;
-    position: fixed;}
+    display: block; }
 
     h1{
       font-size: 4em;
