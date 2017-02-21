@@ -290,7 +290,7 @@ h3:after{
       text-align: center;
       border-bottom: none;
       float: none;
-      font-size: 5em;
+      font-size: 5em !important;
     }
 
     .shout-out{
