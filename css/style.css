@@ -269,6 +269,10 @@ h3:after{
       margin-top: 120px;
     }
 
+    .inner-p2{
+      margin-top: 180px;
+    }
+
 }
 
 /* Landscape */
@@ -298,6 +302,10 @@ h3:after{
 
     .inner-p{
       margin-top: 120px;
+    }
+
+    .inner-p2{
+      margin-top: 180px;
     }
 
 }
