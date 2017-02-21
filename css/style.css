@@ -499,7 +499,8 @@ nav#nav-mobile {
     display: none; }
 
   nav#nav-mobile {
-    display: block; }
+    display: block;
+    position: fixed;}
 
     h1{
       font-size: 4em;
