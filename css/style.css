@@ -317,6 +317,10 @@ h3:after{
       width: 150%;
     }
 
+    .about img{
+      display: inline-block;
+    }
+
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
