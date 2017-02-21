@@ -385,6 +385,14 @@ h3:after{
 
 }
 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+  .nav-main li{
+    padding: 0;
+  }
+}
+
 .textarea{
   border-radius: 4px;
   outline: none;
