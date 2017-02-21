@@ -287,10 +287,8 @@ h3:after{
   and (orientation: landscape) {
 
     h1{
-      text-align: center;
       border-bottom: none;
-      float: none;
-      font-size: 5em !important;
+      font-size: 4em !important;
     }
 
     .shout-out{
