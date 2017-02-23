@@ -293,7 +293,8 @@ h3:after{
     h1{
       border-bottom: none;
       font-size: 3em !important;
-      margin-left: 150px;
+      margin-left: 0 !important;
+      width: 100% !important;
     }
 
     .shout-out{
@@ -309,7 +310,7 @@ h3:after{
     }
 
     .inner-p{
-      margin-top: 120px;
+      margin-top: 150px;
     }
 
     .inner-p2{
