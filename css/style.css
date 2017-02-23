@@ -667,6 +667,8 @@ h2{
     h1{
       text-align: center;
       border-bottom: none;
+      width: 120% !important;
+      margin-left: 0 !important;
     }
 
     .inner-p{
@@ -693,7 +695,7 @@ h2{
     h1{
       border-bottom: none !important;
       font-size: 3em !important;
-      margin-left: 0;
+      margin-left: 0 !important;
       width: 120% !important;
     }
 
@@ -710,11 +712,11 @@ h2{
     }
 
     .inner-p{
-      margin-top: 120px;
+      margin-top: 140px;
     }
 
     .inner-p2{
-      margin-top: 180px;
+      margin-top: 200px;
     }
 
     .wide{
