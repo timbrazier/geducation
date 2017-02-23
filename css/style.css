@@ -671,6 +671,14 @@ h2{
       margin-left: 0 !important;
     }
 
+    .shout-out{
+      width: 70%;
+    }
+
+    .what-i-do img{
+      height: 150px;
+    }
+
     .inner-p{
       margin-top: 120px;
     }
