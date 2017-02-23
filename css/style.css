@@ -594,6 +594,16 @@ h2{
     h1{
       text-align: center;
       border-bottom: none;
+      width: 150% !important;
+      margin-left: 0 !important;
+    }
+
+    .shout-out{
+      width: 70%;
+    }
+
+    .what-i-do img{
+      height: 150px;
     }
 
     .inner-p{
@@ -601,11 +611,11 @@ h2{
     }
 
     .inner-p2{
-      margin-top: 180px;
+      margin-top: 210px;
     }
 
-    .img-shallow-top{
-      margin-top: 0px;
+    .footer{
+      margin-top: 60px;
     }
 
 }
@@ -620,7 +630,7 @@ h2{
     h1{
       border-bottom: none !important;
       font-size: 3em !important;
-      margin-left: 150px;
+      margin-left: 0 !important;
       width: 120% !important;
     }
 
@@ -637,11 +647,11 @@ h2{
     }
 
     .inner-p{
-      margin-top: 120px;
+      margin-top: 140px;
     }
 
     .inner-p2{
-      margin-top: 180px;
+      margin-top: 200px;
     }
 
     .wide{
