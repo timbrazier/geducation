@@ -370,6 +370,10 @@ h3:after{
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    h1{
+      font-size: 3em;
+      text-align: center;
+    }
 
 }
 
@@ -516,7 +520,22 @@ nav#nav-mobile {
 
 /* =Media Queries
 -------------------------------------------------------------- */
-@media (max-width: 1200px) {
+@media (max-width: 900px) {
+  .hero img{
+    display: none;
+  }
+}
+
+@media (max-width: 1090px) {
+  nav#nav-main a{
+    padding: 10px 10px !important;
+  }
+  .hero img{
+    margin-right: -10px !important;
+  }
+}
+
+@media (max-width: 850px) {
   #nav-trigger {
     display: block; }
 
@@ -546,7 +565,7 @@ nav#nav-mobile {
 
     .big-quote{
       font-size: 1.5em;
-      margin-top: 90px;
+      margin-top: 30px;
     }
 
     .blog img{
@@ -568,6 +587,10 @@ nav#nav-mobile {
     .wideish{
       width: 100% !important;
     }
+
+    .footer{
+      margin-top: 60px;
+    }
 }
 
 h2{
@@ -575,10 +598,11 @@ h2{
 }
 
 
+
+
 /* ----------- iPad 3 and 4 ----------- */
 /* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 768px)
+@media (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
