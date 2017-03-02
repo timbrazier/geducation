@@ -371,12 +371,12 @@ h3:after{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     h1{
-      font-size: 3.5em !important;
-      text-align: center;
+      font-size: 3.2em !important;
+      text-align: center !important;
     }
     .big-quote{
       margin-top: 100px !important;
-      font-size: 1.2em !important;
+      font-size: 1.4em !important;
     }
 
 }
@@ -389,11 +389,11 @@ h3:after{
   and (orientation: landscape) {
     h1{
       font-size: 3.5em !important;
-      text-align: center;
+      text-align: center !important;
     }
     .big-quote{
       margin-top: 100px !important;
-      font-size: 1.2em !important;
+      font-size: 1.4em !important;
     }
 
 }
