@@ -764,7 +764,11 @@ h2{
     }
 
     .big-quote{
-      margin-top: 80px !important;
+      margin-top: 70px !important;
+    }
+
+    .hero img{
+      margin-right: 60px !important;
     }
 
 }
