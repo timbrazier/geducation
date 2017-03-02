@@ -397,6 +397,9 @@ h3:after{
       margin-top: 80px !important;
       font-size: 1.4em !important;
     }
+    .inner-h1{
+      margin: 0 auto !important;
+    }
 
 }
 
