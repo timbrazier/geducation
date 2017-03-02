@@ -379,6 +379,10 @@ h3:after{
       font-size: 1.4em !important;
     }
 
+    .inner-p2{
+      margin-top: 20px !important;
+    }
+
 }
 
 /* Landscape */
@@ -405,6 +409,10 @@ h3:after{
 
     .six.columns{
       width: 80%;
+    }
+
+    .inner-p2{
+      margin-top: 20px !important;
     }
 
 }
