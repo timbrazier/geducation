@@ -728,7 +728,7 @@ h2{
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
 
-    h1{
+    .hero h1{
       border-bottom: none !important;
       font-size: 4em !important;
       margin-left: -120px !important;
