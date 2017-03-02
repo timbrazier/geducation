@@ -780,9 +780,8 @@ h2{
       float: left;
     }
 
-    #about p{
-      width: 200px;
-      float: left;
+    .wideish{
+      width: 50% !important;
     }
 
 }
@@ -869,8 +868,6 @@ h2{
       width: 120% !important;
     }
 
-    .wideish{
-      width: 100% !important;
-    }
+  
 
 }
