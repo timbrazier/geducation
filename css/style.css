@@ -400,6 +400,7 @@ h3:after{
     .inner-h1{
       margin-top: 10px !important;
       margin-bottom: 10px !important;
+      padding-left: 5px !important;
     }
 
     .six.columns{
