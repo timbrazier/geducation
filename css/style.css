@@ -432,6 +432,10 @@ h3:after{
       margin-top: 0 !important;
     }
 
+    .img-shallow-top{
+      margin-top: 10px !important;
+    }
+
 }
 
 /* ----------- iPhone 6+ ----------- */
