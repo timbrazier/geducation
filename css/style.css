@@ -804,6 +804,7 @@ h2{
 
     .img-shallow-top img{
       float: left !important;
+      width: 80% !important;
     }
 
 }
