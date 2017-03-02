@@ -780,8 +780,8 @@ h2{
       float: left;
     }
 
-    .wideish{
-      width: 200px !important;
+    #about p{
+      width: 50px;
     }
 
 }
