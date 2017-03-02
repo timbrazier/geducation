@@ -775,8 +775,8 @@ h2{
       margin-top: 60px !important;
     }
 
-    .ipad-about{
-      width: 60% !important;
+    .wideish{
+      width: 0 !important;
     }
 
 }
