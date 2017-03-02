@@ -415,6 +415,14 @@ h3:after{
       margin-top: 110px !important;
     }
 
+    .inner-h12{
+      font-size: 3em !important;
+    }
+
+    .inner-p3{
+      margin-top: 140px !important;
+    }
+
 }
 
 /* ----------- iPhone 6+ ----------- */
