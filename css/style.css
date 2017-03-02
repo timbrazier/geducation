@@ -776,9 +776,9 @@ h2{
     }
 
     #about img{
-      border: 1px solid red;
       float: left;
       width: 120% !important;
+      margin-top: 60px !important;
     }
 
     .wideish{
