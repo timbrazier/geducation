@@ -691,6 +691,10 @@ h2{
       margin-left: 0 !important;
     }
 
+    .big-quote{
+      margin-top: 200px !important;
+    }
+
     .shout-out{
       width: 70%;
     }
