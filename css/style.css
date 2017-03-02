@@ -371,7 +371,7 @@ h3:after{
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     h1{
-      font-size: 3em;
+      font-size: 3.5em;
       text-align: center;
     }
     .big-quote{
