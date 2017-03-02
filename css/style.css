@@ -374,6 +374,9 @@ h3:after{
       font-size: 3em;
       text-align: center;
     }
+    .big-quote{
+      margin-top: 60px;
+    }
 
 }
 
