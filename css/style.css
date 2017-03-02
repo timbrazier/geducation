@@ -786,10 +786,8 @@ h2{
     }
 
     .inner-h1{
-      width: 100% !important;
       margin-left: 130px !important;
       border: 2px solid red !important;
-      font-size: 4em !important;
     }
 
     .about-hero img{
