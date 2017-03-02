@@ -731,7 +731,7 @@ h2{
     h1{
       border-bottom: none !important;
       font-size: 3em !important;
-      margin-left: 0 !important;
+      margin-left: -30px !important;
       width: 120% !important;
     }
 
