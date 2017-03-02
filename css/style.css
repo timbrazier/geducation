@@ -399,6 +399,7 @@ h3:after{
     }
     .inner-h1{
       margin: 0 auto !important;
+      width: 100%;
     }
 
 }
