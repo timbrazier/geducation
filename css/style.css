@@ -786,14 +786,17 @@ h2{
     }
 
     .ipad-inner-h1{
-      padding-left: 100px !important;
-      border: 2px solid red !important;
+      padding-left: 110px !important;
       width: 120% !important;
       text-align: left !important;
     }
 
     .about-hero img{
       width: 70% !important;
+    }
+
+    .about-inner-p{
+      margin-top: 10px !important;
     }
 
 }
