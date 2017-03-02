@@ -388,7 +388,7 @@ h3:after{
     }
 
     .inner-p4{
-      margin-top: 190px !important;
+      margin-top: 240px !important;
     }
 
 }
@@ -438,7 +438,7 @@ h3:after{
 
     .img-shallow-top{
       margin-top: -60px !important;
-      float: right;
+      float: right !important;
     }
 
 }
