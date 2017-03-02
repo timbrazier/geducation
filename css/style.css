@@ -375,7 +375,7 @@ h3:after{
       text-align: center;
     }
     .big-quote{
-      margin-top: 60px;
+      margin-top: 60px !important;
     }
 
 }
