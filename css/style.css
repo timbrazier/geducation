@@ -391,6 +391,10 @@ h3:after{
       margin-top: 160px !important;
     }
 
+    .img-shallow-top{
+      margin-top: 0 !important;
+    }
+
 }
 
 /* Landscape */
