@@ -738,6 +738,7 @@ h2{
     .inner-h1{
       width: 60% !important;
       margin-left: 30px !important;
+      border: 2px solid red !important;
     }
 
     .shout-out{
