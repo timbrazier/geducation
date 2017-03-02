@@ -446,7 +446,10 @@ h3:after{
 
     .img-shallow-top{
       margin-top: -60px !important;
-      margin-left: 60px !important;
+    }
+
+    .img-shallow-top img{
+      margin-left: 100px !important;
     }
 
 }
