@@ -789,10 +789,11 @@ h2{
       padding-left: 80px !important;
       border: 2px solid red !important;
       width: 120% !important;
+      text-align: left !important;
     }
 
     .about-hero img{
-      width: 80% !important;
+      width: 70% !important;
     }
 
 }
