@@ -735,6 +735,11 @@ h2{
       width: 120% !important;
     }
 
+    .inner-h1{
+      width: 60% !important;
+      margin-left: 30px !important;
+    }
+
     .shout-out{
       width: 70%;
     }
@@ -784,6 +789,8 @@ h2{
     .wideish{
       width: 60% !important;
     }
+
+
 
 }
 
