@@ -390,8 +390,8 @@ h3:after{
     h1{
       font-size: 3.5em !important;
       padding-left: 50px !important;
-      padding-top: 10px !important;
-      padding-bottom: 5px !important;
+      margin-top: 10px !important;
+      margin-bottom: 5px !important;
     }
     .big-quote{
       margin-top: 100px !important;
