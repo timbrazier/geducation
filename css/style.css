@@ -735,13 +735,6 @@ h2{
       width: 120% !important;
     }
 
-    .inner-h1{
-      width: 100% !important;
-      margin-left: 130px !important;
-      border: 2px solid red !important;
-      font-size: 4em !important;
-    }
-
     .shout-out{
       width: 70%;
     }
@@ -790,6 +783,17 @@ h2{
 
     .wideish{
       width: 60% !important;
+    }
+
+    .inner-h1{
+      width: 100% !important;
+      margin-left: 130px !important;
+      border: 2px solid red !important;
+      font-size: 4em !important;
+    }
+
+    .about-hero img{
+      display: none;
     }
 
 
