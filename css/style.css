@@ -388,7 +388,7 @@ h3:after{
     }
 
     .inner-p4{
-      margin-top: 190px !important;
+      margin-top: 160px !important;
     }
 
 }
@@ -430,6 +430,10 @@ h3:after{
 
     .inner-p3{
       margin-top: 140px !important;
+    }
+
+    .inner-p4{
+      margin-top: 160px !important;
     }
 
     .footer{
