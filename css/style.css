@@ -835,7 +835,6 @@ h2{
     .gep{
       margin-top: 120px !important;
       width: 60%;
-      float: left !important;
     }
 
     .big-quote{
@@ -856,6 +855,10 @@ h2{
 
     .inner-p2{
       margin-top: 210px;
+    }
+
+    .inner-p4{
+      float: left !important;
     }
 
     .footer{
