@@ -7,13 +7,6 @@ p{
   font-size: 16px;
 }
 
-
-
-.gep{
-  margin-top: 310px !important;
-  border: 1px solid red !important;
-}
-
 .center{
   text-align: center;
 }
@@ -696,6 +689,11 @@ h2{
       border-bottom: none;
       width: 150% !important;
       margin-left: 0 !important;
+    }
+
+    .gep{
+      margin-top: 310px !important;
+      border: 1px solid red !important;
     }
 
     .big-quote{
