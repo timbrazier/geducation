@@ -713,6 +713,7 @@ h2{
 
     .gep{
       margin-top: 310px !important;
+      border: 1px solid red !important;
     }
 
     .footer{
