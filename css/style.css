@@ -834,6 +834,7 @@ h2{
 
     .gep{
       margin-top: 180px !important;
+      width: 60%;
     }
 
     .big-quote{
@@ -862,6 +863,15 @@ h2{
 
     #about{
       margin-top: 60px !important;
+    }
+
+    .img-shallow-top{
+      margin-top: -60px !important;
+    }
+
+    .img-shallow-top img{
+      margin-left: 240px !important;
+      margin-top: -60px !important;
     }
 
 }
