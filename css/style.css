@@ -866,12 +866,13 @@ h2{
     }
 
     .img-shallow-top{
-      margin-top: -60px !important;
+
     }
 
     .img-shallow-top img{
-      margin-left: 640px !important;
+      margin-left: 300px !important;
       width: 140%;
+      margin-top: -100px;
     }
 
 }
