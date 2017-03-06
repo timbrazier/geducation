@@ -723,6 +723,10 @@ h2{
       margin-top: 60px !important;
     }
 
+    .about img{
+      display: none;
+    }
+
     .img-shallow-top img{
       margin-left: 500px !important;
       margin-top: -650px !important;
