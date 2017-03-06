@@ -723,6 +723,12 @@ h2{
       margin-top: 60px !important;
     }
 
+    .img-shallow-top img{
+      margin-left: 500px !important;
+      margin-top: -650px !important;
+      width: 100%;
+    }
+
 }
 
 /* Landscape */
