@@ -874,10 +874,8 @@ h2{
     }
 
     .img-shallow-top img{
-      margin-left: 480px !important;
-      width: 100%;
-      margin-top: 300px;
-      float: left !important;
+      margin-left: 240px !important;
+      margin-top: -60px !important;
     }
 
 }
