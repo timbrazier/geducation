@@ -733,6 +733,10 @@ h2{
       width: 100%;
     }
 
+    .inner-h1{
+      text-align: center;
+    }
+
 }
 
 /* Landscape */
