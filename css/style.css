@@ -885,8 +885,9 @@ h2{
     }
 
     .img-shallow-top img{
-      margin-left: 240px !important;
-      margin-top: -60px !important;
+      margin-left: 500px !important;
+      margin-top: -650px !important;
+      width: 100%;
     }
 
 }
