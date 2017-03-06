@@ -732,7 +732,8 @@ h2{
     }
 
     .img-shallow-top img{
-      width: 400% !important;
+      width: 100% !important;
+      margin-bottom: 200px !important;
     }
 
 }
