@@ -904,6 +904,7 @@ h2{
       float: right !important;
       width: 250px !important;
       display: inline !important;
+      margin-top: -100px !important;
     }
 
     .wideish{
