@@ -907,6 +907,10 @@ h2{
       margin-top: -600px !important;
     }
 
+    .wideish{
+      width: 250px !important;
+    }
+
 }
 
 /* Landscape */
