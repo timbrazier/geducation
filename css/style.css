@@ -902,9 +902,8 @@ h2{
     }
 
     .img-shallow-top img{
-      margin-left: 500px !important;
-      margin-top: -650px !important;
-      width: 100%;
+      
+      width: 200px !important;
     }
 
 }
