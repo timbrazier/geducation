@@ -905,6 +905,7 @@ h2{
       margin-left: 400px !important;
       width: 200px !important;
       border: 1px solid red;
+      display: inline !important;
     }
 
     .wideish{
