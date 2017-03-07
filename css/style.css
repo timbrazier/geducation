@@ -902,14 +902,8 @@ h2{
 
     .img-shallow-top img{
       float: right !important;
-      width: 200px !important;
-      border: 1px solid red;
+      width: 300px !important;
       display: inline !important;
-    }
-
-    .wideish{
-      width: 250px !important;
-      border: 1px solid red;
     }
 
 }
