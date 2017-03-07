@@ -906,6 +906,10 @@ h2{
       display: inline !important;
     }
 
+    .wideish{
+      width: 300px !important;
+    }
+
 }
 
 /* Landscape */
