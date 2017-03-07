@@ -904,11 +904,12 @@ h2{
     .img-shallow-top img{
       margin-left: 400px !important;
       width: 200px !important;
-      margin-top: -600px !important;
+      float: left !important;
     }
 
     .wideish{
       width: 250px !important;
+      float: left !important;
     }
 
 }
