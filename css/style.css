@@ -731,13 +731,20 @@ h2{
       margin-left: 75px !important;
     }
 
-    .img-shallow-top img{
-      width: 200px !important;
-      margin-bottom: 180px !important;
+    .img-shallow-top{
+      margin-left: 0 !important;
     }
 
-    .inner-p4{
-      margin-right: -100px !importantq;
+    .img-shallow-top img{
+      float: right !important;
+      width: 250px !important;
+      display: inline !important;
+      margin-top: -50px !important;
+      margin-left: 50px !important;
+    }
+
+    .wideish{
+      width: 300px !important;
     }
 
 }
