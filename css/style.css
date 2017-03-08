@@ -826,6 +826,7 @@ h2{
 
     .about-hero img{
       width: 70% !important;
+      padding-left: 80px !important;
     }
 
     .about-inner-p{
