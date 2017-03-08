@@ -743,6 +743,10 @@ h2{
       width: 300px !important;
     }
 
+    #about img{
+      width: 110% !important;
+    }
+
 }
 
 /* Landscape */
