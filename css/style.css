@@ -745,10 +745,11 @@ h2{
 
     #about img{
       width: 110% !important;
+      padding-left: 50px !important;
     }
 
     #about p{
-      width: 110% !important;
+      width: 120% !important;
     }
 
 }
