@@ -425,6 +425,7 @@ h3:after{
 
     .inner-p2{
       margin-top: 110px !important;
+      width: 100% !important;
     }
 
     .inner-h12{
