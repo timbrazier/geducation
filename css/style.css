@@ -766,6 +766,10 @@ h2{
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+    .wide-h1{
+      width: 150% !important;
+    }
+    
     .hero h1{
       border-bottom: none !important;
       font-size: 4em !important;
@@ -849,10 +853,6 @@ h2{
 
     .about-hero img{
       padding-left: 100px !important;
-    }
-
-    .wide-h1{
-      width: 150% !important;
     }
 
 }
