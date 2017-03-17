@@ -765,12 +765,12 @@ h2{
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
-    
+
     .hero h1{
       border-bottom: none !important;
       font-size: 4em !important;
       margin-left: -120px !important;
-      width: 120% !important;
+      width: 170% !important;
     }
 
     .shout-out{
