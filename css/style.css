@@ -767,9 +767,9 @@ h2{
   and (-webkit-min-device-pixel-ratio: 2) {
 
     .wide-h1{
-      width: 150% !important;
+      width: 500px !important;
     }
-    
+
     .hero h1{
       border-bottom: none !important;
       font-size: 4em !important;
