@@ -765,11 +765,7 @@ h2{
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 2) {
-
-    .wide-h1{
-      width: 500px !important;
-    }
-
+    
     .hero h1{
       border-bottom: none !important;
       font-size: 4em !important;
@@ -843,6 +839,7 @@ h2{
       margin-bottom: 10px !important;
       padding-left: 120px !important;
       text-align: left !important;
+      width: 150% !important;
     }
 
     .img-shallow-top img{
