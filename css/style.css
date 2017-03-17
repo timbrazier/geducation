@@ -851,6 +851,9 @@ h2{
       padding-left: 100px !important;
     }
 
+    .wide-h1{
+      width: 150% !important;
+    }
 
 }
 
